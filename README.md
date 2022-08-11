@@ -1,3 +1,24 @@
+##About the app
+
+To build a new micro-service responsible to expose some information related to a transaction dump.
+
+
+
+## How it works
+```bach 
+cd /path/app
+npm install
+```
+#### Run App
+
+```bach 
+npm run start
+```
+#### Run Test
+
+```bach 
+npm run test
+```
 ### Coding Challenge Guidelines
 
 Let's imagine you are working in the oodrive company and your mission is to build a new micro-service responsible to expose some information related to a transaction dump.
