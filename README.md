@@ -1,4 +1,4 @@
-##About the app
+## About the app
 
 To build a new micro-service responsible to expose some information related to a transaction dump.
 
@@ -18,7 +18,7 @@ npm run start
 npm run test
 ```
 
-#### Tests Api
+#### Api Tests
 - [x] `http://localhost:8080/`
 - [x] `http://localhost:8080/?iban=ibannumber`
 - [x] `http://localhost:8080/big`
