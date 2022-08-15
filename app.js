@@ -99,6 +99,21 @@ app.get("/big", function (req, res) {
 
 })
 
+
+
+
+
+app.param("Iban",function(req,res,next,iban){
+   
+    let obj = exposeData.find(o => o["Iban source"] == iban);
+    if(!obj) next("Not found")
+    next(obj)//next to route /list
+})
+app.get("/list/:Iban",function(req,res){
+   res.send(obj)
+})
+
+
 app.all("*",function(req,res,next){
    console.log("rrrrrrrrrrrrrrrrrrr")
    next("Route Not Found")
